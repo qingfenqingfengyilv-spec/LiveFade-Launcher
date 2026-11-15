@@ -37,7 +37,7 @@ jobs:
         with:
           gradle-version: "8.9"
 
-      - name: Build debug APK
+      - name: Build Debug APK
         run: gradle -p workspace/LiveFadeLauncher :app:assembleDebug --no-daemon
 
       - name: Upload APK
